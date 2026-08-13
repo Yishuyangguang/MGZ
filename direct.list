@@ -39,3 +39,4 @@ DOMAIN-SUFFIX,zm.io
 DOMAIN-SUFFIX,zoomgov.com
 # 模糊匹配兜底（可选，匹配所有包含 zoom 的子域名）
 DOMAIN-KEYWORD,zoom
+IP-ASN,30103,DIRECT
