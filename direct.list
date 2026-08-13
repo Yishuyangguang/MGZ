@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,sps.yy-gp.com
 DOMAIN-SUFFIX,filebox.nnuu.nyc.mn
 DOMAIN-SUFFIX,ip.jsnzkpg
 IP-CIDR,103.74.192.62/32
-USER-AGENT,com.apple.trustd*
+USER-AGENT,com.apple.trustd
 DOMAIN-SUFFIX,s1.vipi.top
 IP-CIDR,144.195.6.24/32
 DOMAIN-SUFFIX,u.expo.dev
