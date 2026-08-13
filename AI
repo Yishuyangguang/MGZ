@@ -1,23 +1,26 @@
 # ==========================================
-# 1. Gemini & NotebookLM & Google AI 核心服务
+# 1. Gemini & NotebookLM & Google AI 核心与边缘服务
 # ==========================================
 DOMAIN,ai.google.dev
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
-DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
+DOMAIN-SUFFIX,content-autofill.googleapis.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,labs.google
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooks.google.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,content-autofill.googleapis.com
+DOMAIN-SUFFIX,speech.googleapis.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
@@ -25,7 +28,12 @@ DOMAIN-KEYWORD,generativelanguage
 # ==========================================
 # 2. OpenAI & ChatGPT 核心服务
 # ==========================================
-DOMAIN-KEYWORD,openai
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
@@ -37,12 +45,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN-KEYWORD,openai
 IP-CIDR,24.199.123.28/32
 IP-CIDR,64.23.132.171/32
 IP-ASN,20473
@@ -53,7 +56,9 @@ IP-ASN,20473
 DOMAIN-SUFFIX,accounts.google.com
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,clients6.google.com
 DOMAIN-SUFFIX,docs.google.com
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,drive.google.com
