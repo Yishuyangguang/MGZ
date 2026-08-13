@@ -5,13 +5,10 @@ DOMAIN-SUFFIX,filebox.nnuu.nyc.mn
 DOMAIN-SUFFIX,ip.jsnzkpg
 IP-CIDR,103.74.192.62/32
 USER-AGENT,com.apple.trustd
-DOMAIN-SUFFIX,s1.vipi.top
 IP-CIDR,144.195.6.24/32
 DOMAIN-SUFFIX,u.expo.dev
 IP-CIDR,144.195.5.98/32
-DOMAIN-SUFFIX,zoom.com.cn
 IP-CIDR,144.195.2.190/32
-DOMAIN-SUFFIX,zoom.us
 DOMAIN-SUFFIX,ingest.us.sentry.io
 DOMAIN-SUFFIX,1.uysafapi.icu
 DOMAIN-SUFFIX,roaming.svc.cloud.microsoft
@@ -26,3 +23,19 @@ DOMAIN-SUFFIX,ambplapi0ot.com
 DOMAIN-SUFFIX,alibplapi0ot.com
 DOMAIN-SUFFIX,cdnforbible.com
 DOMAIN-SUFFIX,https.ng
+# 小鸽子服务（泛域名匹配：覆盖主域名及所有二级/边缘域名）
+DOMAIN-SUFFIX,vipi.top
+# Zoom 核心与官网域名
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,zoom.com
+DOMAIN-SUFFIX,zoom.com.cn
+DOMAIN-SUFFIX,zoom.com.hk
+# Zoom CDN 资源与媒体流加速
+DOMAIN-SUFFIX,zoomcdn.com
+DOMAIN-SUFFIX,zoom.cloud
+# Zoom 短链接与内部 API 节点
+DOMAIN-SUFFIX,zm.io
+# Zoom 政府与特殊节点（可选）
+DOMAIN-SUFFIX,zoomgov.com
+# 模糊匹配兜底（可选，匹配所有包含 zoom 的子域名）
+DOMAIN-KEYWORD,zoom
