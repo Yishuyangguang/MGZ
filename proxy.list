@@ -1,0 +1,50 @@
+# ==========================================
+# 1. GitHub 全家桶（主站、Raw、CDN、Actions、Copilot、Pages 等）
+# ==========================================
+# 核心与所有二级子域名（覆盖 dash, api, gist, raw, assets 等）
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,githubdev.com
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,githubpreview.dev
+DOMAIN-SUFFIX,githubstatus.com
+
+# GitHub 容器与短链接服务
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,git.io
+
+# 兜底关键字（防止漏网的新边缘域名）
+DOMAIN-KEYWORD,github
+
+# ==========================================
+# 2. Cloudflare 全家桶（Dashboard、API、Workers、Pages、CDN、Turnstile 等）
+# ==========================================
+# 核心与所有二级子域名（覆盖 dash.cloudflare.com, api, radar, speed 等）
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.net
+DOMAIN-SUFFIX,cloudflare.org
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflareaccess.com
+DOMAIN-SUFFIX,cloudflareclient.com
+DOMAIN-SUFFIX,cloudflareimages.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,cloudflarepages.com
+DOMAIN-SUFFIX,cloudflarestorage.com
+DOMAIN-SUFFIX,cloudflarestream.com
+DOMAIN-SUFFIX,cloudflareworkers.com
+DOMAIN-SUFFIX,cloudflarestatus.com
+DOMAIN-SUFFIX,cloudflareresearch.com
+
+# Cloudflare 生态边缘服务（Workers / Pages / Tunnel 节点）
+DOMAIN-SUFFIX,trycloudflare.com
+DOMAIN-SUFFIX,argotunnel.com
+DOMAIN-SUFFIX,cf-ipfs.com
+
+# 兜底关键字
+DOMAIN-KEYWORD,cloudflare
