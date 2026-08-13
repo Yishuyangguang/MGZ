@@ -3,12 +3,8 @@ DOMAIN-SUFFIX,jsnzkpg.com
 DOMAIN-SUFFIX,sps.yy-gp.com
 DOMAIN-SUFFIX,filebox.nnuu.nyc.mn
 DOMAIN-SUFFIX,ip.jsnzkpg
-IP-CIDR,103.74.192.62/32
 USER-AGENT,com.apple.trustd
-IP-CIDR,144.195.6.24/32
 DOMAIN-SUFFIX,u.expo.dev
-IP-CIDR,144.195.5.98/32
-IP-CIDR,144.195.2.190/32
 DOMAIN-SUFFIX,ingest.us.sentry.io
 DOMAIN-SUFFIX,1.uysafapi.icu
 DOMAIN-SUFFIX,roaming.svc.cloud.microsoft
@@ -39,4 +35,9 @@ DOMAIN-SUFFIX,zm.io
 DOMAIN-SUFFIX,zoomgov.com
 # 模糊匹配兜底（可选，匹配所有包含 zoom 的子域名）
 DOMAIN-KEYWORD,zoom
-IP-ASN,30103,DIRECT
+IP-ASN,30103
+IP-CIDR,144.195.0.0/16
+IP-CIDR,144.195.5.98/32
+IP-CIDR,144.195.2.190/32
+IP-CIDR,103.74.192.62/32
+IP-CIDR,144.195.6.24/32
