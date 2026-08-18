@@ -92,3 +92,22 @@ DOMAIN-SUFFIX,ssl.gstatic.com
 DOMAIN-SUFFIX,static.cloudflareinsights.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,www.gstatic.com
+
+# ========== Spaceship 核心与边缘域名 ==========
+DOMAIN-SUFFIX,spaceship.com,PROXY
+DOMAIN-SUFFIX,spaceship.net,PROXY
+DOMAIN-KEYWORD,spaceship,PROXY
+
+# ========== 静态资源、控制台与 API 边缘节点 ==========
+DOMAIN,api.spaceship.com,PROXY
+DOMAIN,auth.spaceship.com,PROXY
+DOMAIN,launchpad.spaceship.com,PROXY
+DOMAIN,static.spaceship.com,PROXY
+DOMAIN,assets.spaceship.com,PROXY
+DOMAIN,cdn.spaceship.com,PROXY
+
+# ========== 关联底层与注册局通信服务 (Namecheap 基础设施) ==========
+DOMAIN-SUFFIX,namecheap.com,PROXY
+DOMAIN-SUFFIX,namecheaphosting.com,PROXY
+DOMAIN-SUFFIX,registrar-servers.com,PROXY
+DOMAIN-SUFFIX,spacemail.com,PROXY
